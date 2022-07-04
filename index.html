@@ -90,7 +90,9 @@
                             <option value="WY">Wyoming</option>
                     </select>
                     <label for ="zip">Your Zipcode</label>
-                    <input type ="text" id="zip" name="zip"/>
+                    <input type ="textr" id="zip" name="zip" title ="5-Digit US Zip Code" pattern ="[0-9]{5}"/>
+                    <label for ="pwd">Your Secret Code<span class ="required-field">*</span></label>
+                    <input type ="password" id ="pwd" name ="pwd" required title ="6 Alphanumeric Character Passcode" pattern ="[0-9a-zA-Z]{6}"/>
                 </div>
             </fieldset>
             <fieldset>
